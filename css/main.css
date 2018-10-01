@@ -1,6 +1,7 @@
 /* Changes the background color of entire page */
+
 body {
-  background-color: #fdf6e3
+  background-color: #fdf6e3;
 }
 
 header, footer {
@@ -10,11 +11,15 @@ header, footer {
 nav > ul {
   font-family: sans-serif;
 }
+
 /* Makes Logo Uppercase (FRUIT FACTORY) */
+
 .logo {
   text-transform: uppercase;
 }
+
 /* Changes Color of Wrapper */
+
 .wrapper {
   background-color: #eee8d5;
 }
@@ -22,15 +27,41 @@ nav > ul {
 .wrapper > .dfn {
   background-color: #b58900;
 }
-/*Changes 2nd strong to white. p + strong because the second strong is beside a p*/
+
+/* Changes 2nd strong to white. p + strong because the second strong is beside a p */
+
 p + strong {
-  color: #fff
+  color: #fff;
 }
+
 /* Changing Color of Sub Headers */
+
 #contents, #favs, #facts, #types {
   color: #93a1a1;
 }
-/* Applies background to all <a> except ones in class .no-highlight*/
-a:not(.no-highlight){
+
+/* Applies background to all <a> except ones in class .no-highlight */
+
+a:not(.no-highlight) {
   background-color: #719e07;
+}
+
+ol li:first-child {
+  color: #719e47;
+}
+
+ol li:last-child {
+  color: #2aa198;
+}
+
+.types > li:nth-child(odd) {
+  background-color: #657ba3;
+}
+
+.types > li:nth-child(even) {
+  background-color: #586e75;
+}
+
+.types > li:nth-of-type(3) {
+  background-color: #d04b16;
 }
