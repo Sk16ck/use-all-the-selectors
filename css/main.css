@@ -46,6 +46,12 @@ a:not(.no-highlight) {
   background-color: #719e07;
 }
 
+/* Couldnt understand */
+
+#contents > ul li:nth-last-of-type(2) {
+  background-color: #2694d8;
+}
+
 ol li:first-child {
   color: #719e47;
 }
@@ -62,6 +68,8 @@ ol li:last-child {
   background-color: #586e75;
 }
 
-.types > li:nth-of-type(3) {
+/* Colors every third child in the <li> */
+
+.types > li:nth-child(3n) {
   background-color: #d04b16;
 }
